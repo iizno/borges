@@ -1,6 +1,6 @@
 <?php
 
-use RubyRainbows\I18n\I18n as Lang;
+use Philasearch\I18n\I18n as Lang;
 
 class I18nTest extends TestCase
 {

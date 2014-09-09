@@ -1,6 +1,6 @@
 <?php
 
-use RubyRainbows\I18n\Parsers\YamlParser as Parser;
+use Philasearch\I18n\Parsers\YamlParser as Parser;
 
 class YamlParserTest extends TestCase
 {

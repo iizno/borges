@@ -4,18 +4,17 @@
  * Finder.php
  *
  * @author    Thomas Muntaner thomas.muntaner@gmail.com
- * @copyright 2014 Thomas Muntaner
  * @version   1.0.0
  */
 
-namespace RubyRainbows\I18n;
+namespace Philasearch\I18n;
 
 /**
  * Class Finder
  *
  * This class finds translations
  *
- * @package RubyRainbows\I18n
+ * @package Philasearch\I18n
  * 
  */
 class Finder

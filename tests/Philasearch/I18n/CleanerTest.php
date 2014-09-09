@@ -1,6 +1,6 @@
 <?php
 
-use RubyRainbows\I18n\Cleaner as Cleaner;
+use Philasearch\I18n\Cleaner as Cleaner;
 
 class CleanerTest extends TestCase
 {

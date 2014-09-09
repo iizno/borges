@@ -4,11 +4,10 @@
  * YamlParser.php
  *
  * @author    Thomas Muntaner thomas.muntaner@gmail.com
- * @copyright 2014 Thomas Muntaner
  * @version   1.0.0
  */
 
-namespace RubyRainbows\I18n\Parsers;
+namespace Philasearch\I18n\Parsers;
 
 use Symfony\Component\Yaml\Parser;
 use Symfony\Component\Yaml\Exception\ParseException;
@@ -19,7 +18,7 @@ use Symfony\Component\Yaml\Exception\ParseException;
  * This class interacts with the symfony yaml component
  * to read yaml locale files
  *
- * @package RubyRainbows\I18n\Parsers
+ * @package Philasearch\I18n\Parsers
  * 
  */
 class YamlParser

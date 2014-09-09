@@ -4,22 +4,21 @@
  * LocaleCache.php
  *
  * @author    Thomas Muntaner thomas.muntaner@gmail.com
- * @copyright 2014 Thomas Muntaner
  * @version   1.0.0
  */
 
-namespace RubyRainbows\I18n;
+namespace Philasearch\I18n;
 
-use RubyRainbows\I18n\Parsers\YamlParser    as Parser;
-use RubyRainbows\IO\Directory               as Directory;
-use RubyRainbows\IO\File                    as File;
+use Philasearch\I18n\Parsers\YamlParser    as Parser;
+use Philasearch\IO\Directory               as Directory;
+use Philasearch\IO\File                    as File;
 
 /**
  * Class LocaleCache
  *
  * This class stores the translations
  *
- * @package RubyRainbows\I18n
+ * @package Philasearch\I18n
  * 
  */
 class LocaleCache
