@@ -3,7 +3,7 @@
     "description": "An i18n library for PHP",
     "minimum-stability": "stable",
     "homepage": "https://github.com/philasearch/php-i18n",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "authors": [
         {
             "name": "Thomas Muntaner",

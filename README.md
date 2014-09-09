@@ -1,6 +1,6 @@
-[![Latest Stable Version](https://poser.pugx.org/rubyrainbows/i18n/version.svg)](https://packagist.org/packages/rubyrainbows/i18n)
-[![Total Downloads](https://poser.pugx.org/rubyrainbows/i18n/downloads.svg)](https://packagist.org/packages/rubyrainbows/i18n)
-[![Build Status](https://travis-ci.org/rubyrainbows/php-i18n.svg?branch=v1.0.1)](https://travis-ci.org/rubyrainbows/php-i18n)
+[![Latest Stable Version](https://poser.pugx.org/philasearch/i18n/version.svg)](https://packagist.org/packages/philasearch/i18n)
+[![Total Downloads](https://poser.pugx.org/philasearch/i18n/downloads.svg)](https://packagist.org/packages/philasearch/i18n)
+[![Build Status](https://travis-ci.org/philasearch/php-i18n.svg?branch=v1.0.1)](https://travis-ci.org/philasearch/php-i18n)
 
 # PHP I18n
 
@@ -13,7 +13,7 @@ Add the following require to your composer.json file.
 ```json
 {
     "require": {
-        "rubyrainbows/i18n": "1.0.*"
+        "philasearch/i18n": "1.0.*"
     }
 }
 ```
