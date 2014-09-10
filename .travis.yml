@@ -4,3 +4,15 @@ php:
   - 5.4
 before_install:
   - composer install
+notifications:
+  email:
+    recipients:
+      - muntaner@philasearch.com
+      - enis@philasearch.com
+      - eisert@philasearch.com
+      - j.urbin@paper-free-office.de
+    on_success: change
+    on_failure: always
+  hipchat:
+    rooms:
+      secure: mUOGDDaeD2F0sfrwlJ82CGb8JOzy8/aXI8rMAUPQA1F+1ypV5u2o4l2cZTBq125PSvwFHlifqLQbuTvFfQjsutfF+fSdNAyKumrB8pWtQVqlgj0x5ft+LJR1KFuV5v8qfhiZuT1GeTZZvNwol1naWhGo7s4FZzMrpt0OFs80zAA=
