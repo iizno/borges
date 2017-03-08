@@ -13,7 +13,7 @@ Add the following require to your composer.json file.
 ```json
 {
     "require": {
-        "philasearch/i18n": "1.0.*"
+        "philasearch/i18n": "1.1.*"
     }
 }
 ```
