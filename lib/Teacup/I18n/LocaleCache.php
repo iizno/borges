@@ -10,8 +10,8 @@
 namespace Teacup\I18n;
 
 use Teacup\I18n\Parsers\YamlParser    as Parser;
-use Teacup\IO\Directory               as Directory;
-use Teacup\IO\File                    as File;
+use Philasearch\IO\Directory               as Directory;
+use Philasearch\IO\File                    as File;
 
 /**
  * Class LocaleCache
