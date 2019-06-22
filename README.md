@@ -9,7 +9,7 @@ Add the following require to your composer.json file.
 ```json
 {
     "require": {
-        "iizno/borges": "1.*"
+        "teacup/borges": "1.*"
     }
 }
 ```
