@@ -1,7 +1,3 @@
-[![Latest Stable Version](https://poser.pugx.org/philasearch/i18n/version.svg)](https://packagist.org/packages/philasearch/i18n)
-[![Total Downloads](https://poser.pugx.org/philasearch/i18n/downloads.svg)](https://packagist.org/packages/philasearch/i18n)
-[![Build Status](https://travis-ci.org/philasearch/php-i18n.svg?branch=v1.0.1)](https://travis-ci.org/philasearch/php-i18n)
-
 # PHP I18n
 
 PHP I18n is a simple library for storing localized strings outside of your code.
@@ -13,7 +9,7 @@ Add the following require to your composer.json file.
 ```json
 {
     "require": {
-        "philasearch/i18n": "1.1.*"
+        "iizno/borges": "1.*"
     }
 }
 ```
