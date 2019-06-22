@@ -7,14 +7,14 @@
  * @version   1.0.0
  */
 
-namespace Philasearch\I18n;
+namespace Teacup\I18n;
 
 /**
  * Class Finder
  *
  * This class finds translations
  *
- * @package Philasearch\I18n
+ * @package Teacup\I18n
  * 
  */
 class Finder
@@ -43,10 +43,9 @@ class Finder
 
     /**
      * Finds the item in the array from the key
-     * 
-     * @param  array $data
-     * @param  array $keys
-     * 
+     *
+     * @param array $data
+     * @param $key
      * @return mixed
      */
     private function find ( $data, $key )
@@ -55,10 +54,12 @@ class Finder
 
         foreach ( $keys as $key )
         {
-            if ( is_array( $data ) && array_key_exists( $key, $data ) )
+            if ( is_array( $data ) && array_key_exists( $key, $data ) ) {
                 $data = $data[$key];
-            else
+            }
+            else {
                 return '';
+            }
         }
 
         return $data;

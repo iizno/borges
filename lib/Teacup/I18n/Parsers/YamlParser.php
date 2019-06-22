@@ -3,11 +3,11 @@
 /**
  * YamlParser.php
  *
- * @author    Thomas Muntaner thomas.muntaner@gmail.com
+ * @author    iizno jerome@teacup.fr
  * @version   1.0.0
  */
 
-namespace Philasearch\I18n\Parsers;
+namespace Teacup\I18n\Parsers;
 
 use Symfony\Component\Yaml\Parser;
 use Symfony\Component\Yaml\Exception\ParseException;
@@ -18,7 +18,7 @@ use Symfony\Component\Yaml\Exception\ParseException;
  * This class interacts with the symfony yaml component
  * to read yaml locale files
  *
- * @package Philasearch\I18n\Parsers
+ * @package Teacup\I18n\Parsers
  * 
  */
 class YamlParser

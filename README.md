@@ -27,7 +27,7 @@ You will most likely be using the I18n class in your own implementation, so you 
 ```php
 <?php
 
-use Philasearch\I18n\I18n as Lang;
+use Teacup\I18n\I18n as Lang;
 
 $lang = new Lang( dirname(__FILE__) . '/config/locales' );
 ```
@@ -64,7 +64,7 @@ Now we can load the translation class and get our translated string.
 ```php
 <?php
 
-use Philasearch\I18n\I18n as Lang;
+use Teacup\I18n\I18n as Lang;
 
 $lang = new Lang( dirname(__FILE__) . 'config/locales' );
 

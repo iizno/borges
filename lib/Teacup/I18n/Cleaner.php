@@ -3,18 +3,18 @@
 /**
  * Cleaner.php
  *
- * @author    Thomas Muntaner thomas.muntaner@gmail.com
+ * @author    iizno jerome@teacup.fr
  * @version   1.0.0
  */
 
-namespace Philasearch\I18n;
+namespace Teacup\I18n;
 
 /**
  * Class Cleaner
  *
  * This class cleans a translation
  *
- * @package Philasearch\I18n
+ * @package Teacup\I18n
  * 
  */
 class Cleaner

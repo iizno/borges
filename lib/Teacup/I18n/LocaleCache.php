@@ -3,28 +3,28 @@
 /**
  * LocaleCache.php
  *
- * @author    Thomas Muntaner thomas.muntaner@gmail.com
+ * @author    iizno jerome@teacup.fr
  * @version   1.0.0
  */
 
-namespace Philasearch\I18n;
+namespace Teacup\I18n;
 
-use Philasearch\I18n\Parsers\YamlParser    as Parser;
-use Philasearch\IO\Directory               as Directory;
-use Philasearch\IO\File                    as File;
+use Teacup\I18n\Parsers\YamlParser    as Parser;
+use Teacup\IO\Directory               as Directory;
+use Teacup\IO\File                    as File;
 
 /**
  * Class LocaleCache
  *
  * This class stores the translations
  *
- * @package Philasearch\I18n
+ * @package Teacup\I18n
  * 
  */
 class LocaleCache
 {
-    private $cache          = null;
-    private $langDirectory  = null;
+    private $cache;
+    private $langDirectory;
 
     public function __construct ( $langDirectory )
     {
@@ -42,8 +42,9 @@ class LocaleCache
      */
     public function get ( $locale )
     {
-        if ( !array_key_exists( $locale, $this->cache ) )
-            $this->build( $locale );
+        if ( !array_key_exists( $locale, $this->cache ) ) {
+            $this->build($locale);
+        }
 
         return $this->cache[$locale];
     }

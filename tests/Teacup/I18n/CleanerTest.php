@@ -1,6 +1,6 @@
 <?php
 
-use Philasearch\I18n\Cleaner as Cleaner;
+use Teacup\I18n\Cleaner as Cleaner;
 
 class CleanerTest extends TestCase
 {

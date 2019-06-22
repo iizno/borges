@@ -1,6 +1,6 @@
 <?php
 
-use Philasearch\I18n\LocaleCache as Cache;
+use Teacup\I18n\LocaleCache as Cache;
 
 class LocaleCacheTest extends TestCase
 {

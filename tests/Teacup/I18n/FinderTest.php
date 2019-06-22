@@ -1,6 +1,6 @@
 <?php
 
-use Philasearch\I18n\Finder as Finder;
+use Teacup\I18n\Finder as Finder;
 
 class FinderTest extends TestCase
 {

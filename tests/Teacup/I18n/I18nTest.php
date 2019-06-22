@@ -1,6 +1,6 @@
 <?php
 
-use Philasearch\I18n\I18n as Lang;
+use Teacup\I18n\I18n as Lang;
 
 class I18nTest extends TestCase
 {

@@ -3,18 +3,18 @@
 /**
  * I18n.php
  *
- * @author    Thomas Muntaner thomas.muntaner@gmail.com
+ * @author    iizno jerome@teacup.fr
  * @version   1.0.0
  */
 
-namespace Philasearch\I18n;
+namespace Teacup\I18n;
 
 /**
  * Class I18n
  *
  * The main class for the I18n module
  *
- * @package Philasearch\I18n
+ * @package Teacup\I18n
  * 
  */
 class I18n
@@ -31,7 +31,7 @@ class I18n
     }
 
     /**
-     * Gets the localzied string from the finder
+     * Gets the localized string from the finder
      * 
      * @param  string $locale
      * @param  string $key
@@ -66,8 +66,9 @@ class I18n
         {
             $translation = $this->finder->get( $locale, $key );
 
-            if ( $translation != '' )
+            if ( $translation != '' ) {
                 return $translation;
+            }
         }
 
         return '';
